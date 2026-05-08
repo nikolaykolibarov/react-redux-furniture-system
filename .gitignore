@@ -56,6 +56,18 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 
 # OS generated files #
 .DS_Store
